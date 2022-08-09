@@ -1,0 +1,9 @@
+Fecha,Peticion,Respuesta
+20210624175717,,"[SystemTraceAuditNumber]=>210624175717 [ResponseCode]=>71 [ErrorMesage]=>REFERENCIA DE SERVICIO INVALIDA 1"
+20210624180001,,"[SystemTraceAuditNumber]=>210624180001 [ResponseCode]=>71 [ErrorMesage]=>REFERENCIA DE SERVICIO INVALIDA 1"
+20210713171729,"[Chargesnotification]=>1 [clientKey]=>ASXWZ7AJ3SRFDSK1KISW66 [Card]=>98180008 [Amount]=>468 [AuthCode]=>074107 [TypeMov]=>1 [Concept]=>FONDEOATARJETA","[SystemTraceAuditNumber]=>210713171729 [ResponseCode]=>65 [ErrorMesage]=>AUTHCODE REPETIDO"
+20210714125149,"[Chargesnotification]=>1 [clientKey]=>ASXWZ7AJ3SRFDSK1KISW66 [Card]=>59959002 [Amount]=>899 [AuthCode]=>150628 [TypeMov]=>2 [Concept]=>REVERSOATARJETA","[SystemTraceAuditNumber]=>210714125149 [ResponseCode]=>65 [ErrorMesage]=>AUTHCODE REPETIDO"
+20210831160550,"[Chargesnotification]=>1 [clientKey]=>ASXWZ7AJ3SRFDSK1KISW66 [Card]=>53927005 [Amount]=>425 [AuthCode]=>981864 [TypeMov]=>2 [Concept]=>REVERSOATARJETA","[SystemTraceAuditNumber]=>210831160550 [ResponseCode]=>65 [ErrorMesage]=>AUTHCODE REPETIDO"
+20211103131757,,"[SystemTraceAuditNumber]=>211103131757 [ResponseCode]=>71 [ErrorMesage]=>REFERENCIA DE SERVICIO INVALIDA 1"
+20211104133644,,"[SystemTraceAuditNumber]=>211104133644 [ResponseCode]=>71 [ErrorMesage]=>REFERENCIA DE SERVICIO INVALIDA 1"
+20211104135410,"[Chargesnotification]=>1 [clientKey]=>ASXWZ7AJ3SRFDSK1KISW67 [Card]=>09546008 [Amount]=>1 [AuthCode]=>252738 [TypeMov]=>2 [Concept]=>REVERSOATARJETA","[SystemTraceAuditNumber]=>211104135410 [ResponseCode]=>64 [ErrorMesage]=>CLIENTKEY NO ES DE MULTIBANK"

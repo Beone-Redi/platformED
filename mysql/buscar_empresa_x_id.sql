@@ -1,0 +1,1 @@
+SELECT `company`, `social_reason`, `fullname`, `email`, `telephone`, `address`, `city`, `zip`, `aboutme`, `picture`, `perfil`, `fund`, `up_date`, `active` FROM `en_company`  WHERE `ide`=''

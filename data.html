@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<head>
+    
+    <!-- Need to use datatables.net -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.16/css/jquery.dataTables.min.css"/>
+    <link href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <script src="//netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
+    <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+    <!-- Mini-extra style to be apply to tables with the dataTable plugin  -->
+    <style>
+        .dataTable table tr {
+            border: solid 1px black;
+        }
+    </style>
+    
+</head>
+<body>
+<div class="container">
+	<div class="row" style="margin: 50px">
+		<table id="myTable" style="border:solid 1px black">
+		    <thead>
+		        <tr>
+    		        <th>Surname</th>
+    		        <th>Name</th>
+    		        <th>Rol</th>
+		        </tr>
+		    </thead>
+		    <tbody>
+		        <tr>
+		            <td>García Pérez</td><td>Antonio</td><td>Administrador</td>
+	            </tr>
+	            <tr>
+		            <td>López Garrido</td><td>Rafael</td><td>Empleado</td>
+	            </tr>
+	            <tr>
+	                <td>Gálvez Pérez</td><td>Antonio</td><td>Empleado</td>
+	            </tr>
+	            <tr>
+		            <td>Sánchez Garrido</td><td>Pedro</td><td>Gerente</td>
+		        </tr>
+	            <tr>
+	                <td>Ruiz Gozálvez</td><td>Antonio</td><td>Empleado</td>
+                </tr>
+	            <tr>
+	                <td>Pérez Garrido</td><td>Raúl</td><td>Empleado</td>
+                </tr>
+	            <tr>
+		            <td>Ramos Antúnez</td><td>Andrés</td><td>Empleado</td>
+	            </tr>
+	            <tr>
+		            <td>Ruz Sánchez</td><td>Valeria</td><td>Empleado</td>
+	            </tr>
+	            <tr>
+		            <td>Pérez Pérez</td><td>Ana</td><td>Empleado</td>
+	            </tr>
+	            <tr>
+		            <td>Garrido Antúnez</td><td>Rosario</td><td>Empleado</td>
+		        </tr>
+	            <tr>
+		            <td>Salmón Rua</td><td>Natalia</td><td>Empleado</td>
+		        </tr>
+	            <tr>
+		            <td>Ramos Ramos</td><td>Pedro</td><td>Empleado</td>
+		        </tr>
+	            <tr>
+		            <td>Sánchez Sánchez</td><td>Juan</td><td>Empleado</td>
+	            </tr>
+	            <tr>
+		            <td>Gálvez Ramos</td><td>Hector</td><td>Empleado</td>
+	            </tr>
+	            <tr>
+		            <td>Ruíz Ruíz</td><td>Desirée</td><td>Empleado</td>
+		        </tr>
+		        <tr>
+		            <td>Salgado Ruíz</td><td>Eva</td><td>Empleado</td>
+		        </tr>
+		        <tr>
+		            <td>Pérez Pérez</td><td>María</td><td>Empleado</td>
+		        </tr>
+		        <tr>
+		            <td>Rua Toribio</td><td>Antonio Manuel</td><td>Empleado</td>
+		        </tr>
+		        <tr>
+		            <td>Sera Pérez</td><td>David</td><td>Empleado</td>
+		        </tr>
+		        <tr>
+		            <td>Masera Antón</td><td>Raúl</td><td>Empleado</td>
+		        </tr>
+		        <tr>
+		            <td>Topo Sua</td><td>David</td><td>Empleado</td>
+		        </tr>
+		        <tr>
+		            <td>Flores García</td><td>Esteban</td><td>Empleado</td>
+		        </tr>
+		        <tr>
+		            <td>Fernández Pérez</td><td>Manuel</td><td>Empleado</td>
+		        </tr>
+		        <tr>
+		            <td>Truán Mané</td><td>Toño</td><td>Empleado</td>
+		        </tr>
+		        <tr>
+		            <td>Esper</td><td>Michael</td><td>Empleado</td>
+		        </tr>
+		        <tr>
+		            <td>Sultán</td><td>Mohamed</td><td>Empleado</td>
+		        </tr>
+		    </tbody>
+		</table>
+	</div>
+</div>
+
+<!-- Need to use datatables.net -->
+<script src="https://cdn.datatables.net/1.10.16/js/jquery.dataTables.min.js"></script>
+
+<script>
+$(document).ready(function(){
+    
+    //Apply the datatables plugin to your table
+    $('#myTable').DataTable();
+    
+});
+</script>
+</html>
